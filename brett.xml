@@ -18,7 +18,7 @@
 
   <project remote="oe" revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="gumby" revision="master" name="gumby-base" path="sources/base">
+  <project remote="gumby" revision="refs/tags/release_01.00.00" name="gumby-base" path="sources/base">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -36,7 +36,7 @@
 
   <project remote="QT5xtra" revision="sumo" name="meta-qt5-extra" path="sources/meta-qt5-extra" />
   
-<project remote="gumby" revision="master" name="meta-acd-gumby" path="sources/meta-acd-gumby" >
+<project remote="gumby" revision="refs/tags/release_01.00.00" name="meta-acd-gumby" path="sources/meta-acd-gumby" >
      <linkfile src="tools/gumby-setup-release.sh" dest="gumby-setup-release.sh"/>
      <linkfile src="README" dest="README-GUMBY"/>
   </project>
