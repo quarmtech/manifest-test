@@ -36,7 +36,7 @@
 
   <project remote="QT5xtra" revision="sumo" name="meta-qt5-extra" path="sources/meta-qt5-extra" />
   
-<project remote="gumby" revision="refs/tags/release_01.00.00" name="meta-acd-gumby" path="sources/meta-acd-gumby" >
+<project remote="gumby" revision="refs/tags/release_01.01.00" name="meta-acd-gumby" path="sources/meta-acd-gumby" >
      <linkfile src="tools/gumby-setup-release.sh" dest="gumby-setup-release.sh"/>
      <linkfile src="README" dest="README-GUMBY"/>
   </project>
